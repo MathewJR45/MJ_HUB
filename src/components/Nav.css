@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#navbar {
+  position: absolute;
+  position: fixed; 
+  width: 100%;
+  z-index: 10;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+}
+.brand{
+  color: rgb(228, 250, 35);
+  font-weight: 600;
+}
+
+.nav-link {
+
+
+  position: relative;
+  display: inline-block;
+  color: rgb(174, 247, 5);
+  text-decoration: none;
+  transition: color 0.3s ease;
+  
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  background:#daff05;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1);
+}
+

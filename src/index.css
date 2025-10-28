@@ -1,0 +1,13 @@
+.bbg{
+     background: linear-gradient(
+   rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.9)
+), url('../assets/mainjer.jpg') ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  
+  color: rgb(255, 255, 255);
+  position: relative;
+}
