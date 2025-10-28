@@ -12,7 +12,6 @@ function Next() {
     { img: img1, text: 'RETRO JERSEY ' },
     { img: img3, text: 'JERSEY WITH SHORTS' },
     { img: img2, text: 'ANTHEM JERSEY ' }
-
   ];
   return (
     <div className='details'>
@@ -35,22 +34,14 @@ function Next() {
         <h2 className='fs-1' style={{ color: ' rgb(214, 255, 68)' }} data-aos="slide-right">HOT SALES CATEGORIES <MdDoubleArrow className='fs-1 pb-2 ps-1' /> </h2>
         <div className='row d-flex h-12 w-5  pt-5'>
           {mapping.map((src, i) => (
-            <div key={i} className='col-lg-4 col-md-6 col-sm-12 ps-4 pt-3 'data-aos="fade-up">
+            <div key={i} className='col-lg-4 col-md-6 col-sm-12 ps-4 pt-3 ' data-aos="fade-up">
               <img src={src.img} alt="img" className='jer-img h-75 w-75' />
               <p className='fs-4 pt-3 mb-5'>{src.text} <span class="superscript">35</span> </p>
-
-
             </div>
           ))}
         </div>
-
-
-
-
-
       </section>
     </div>
-
   )
 }
 

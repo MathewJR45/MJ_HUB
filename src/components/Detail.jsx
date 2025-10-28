@@ -15,33 +15,29 @@ function ContainerExample() {
   ];
   return (
     <Container className='mb-3' >
-<div >
-   <marquee direction="right" scrollamount="8" className=" mx-1">
-      <div className='d-flex justify-content-between    '>
-        {
-          mapping.map((src, i) => (
-            <div key={i} className=''>
-              <img src={src.img} alt="img" />
-            </div>
-          ))
-        }
+      <div >
+        <marquee direction="right" scrollamount="8" className=" mx-1">
+          <div className='d-flex justify-content-between    '>
+            {
+              mapping.map((src, i) => (
+                <div key={i} className=''>
+                  <img src={src.img} alt="img" />
+                </div>
+              ))
+            }
+          </div>
+        </marquee>
       </div>
-</marquee>
-</div>
-         
-
       <Row className='text-center pt-3 '>
-       <Col lg={4}><h1  style={{color:'#b6d602ff'}}>65+</h1>
+        <Col lg={4}><h1 style={{ color: '#b6d602ff' }}>65+</h1>
           <p className='fs-2'>STORES</p>
         </Col>
-        <Col lg={4}><h1  style={{color:'#b6d602ff'}}>300+</h1>
+        <Col lg={4}><h1 style={{ color: '#b6d602ff' }}>300+</h1>
           <p className='fs-2'>DESIGNS</p>
         </Col>
-        
-        <Col lg={4}><h1  style={{color:'#b6d602ff'}}>80000+</h1>
+        <Col lg={4}><h1 style={{ color: '#b6d602ff' }}>80000+</h1>
           <p className='fs-2'>CUSTOMERS</p>
         </Col>
-        
       </Row>
     </Container>
   );

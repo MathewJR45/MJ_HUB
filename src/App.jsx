@@ -13,7 +13,7 @@ import 'aos/dist/aos.css';
 import AOS from 'aos';
 import { useEffect } from 'react';
 function App() {
-   useEffect(() => {
+  useEffect(() => {
     AOS.init({
       duration: 2000,
       once: true,
@@ -21,23 +21,14 @@ function App() {
   }, []);
   return (
     <>
-   
- <Nav/>
-    
-<Home/>
-       <Next/> 
-         <Product/>
-       <Brazil/>
-        <Club/>
-         <Detail/>   
-           <Footer/>  
-     
-         
-     
- 
-  
-           
- 
+      <Nav />
+      <Home />
+      <Next />
+      <Product />
+      <Brazil />
+      <Club />
+      <Detail />
+      <Footer />
     </>
   )
 }

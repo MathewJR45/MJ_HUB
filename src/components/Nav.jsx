@@ -6,24 +6,17 @@ import { AiOutlineShopping } from "react-icons/ai";
 import { VscAccount } from "react-icons/vsc";
 import { FiSearch } from "react-icons/fi";
 import './Nav.css'
-
-
 function Mathew() {
-
   const [scrolled, setScrolled] = useState(false);
-
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
     };
-
     window.addEventListener('scroll', handleScroll);
-
-
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
   return (
-    <Navbar id="navbar" expand="lg" className={`fixed-top navbar-expand-lg ${scrolled ? 'navbar-dark' : 'navbar-light bg-transparent'}`} style={scrolled ? { backgroundColor: '#000000ff'  } : {}}>
+    <Navbar id="navbar" expand="lg" className={`fixed-top navbar-expand-lg ${scrolled ? 'navbar-dark' : 'navbar-light bg-transparent'}`} style={scrolled ? { backgroundColor: '#000000ff' } : {}}>
       <Container>
         <Navbar.Brand href="#home" className=' brand fs-2 '>MJ HUB</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -41,13 +34,7 @@ function Mathew() {
           </Nav>
         </Navbar.Collapse>
       </Container>
-
     </Navbar>
-
-
   );
 }
-
-
-
 export default Mathew;
