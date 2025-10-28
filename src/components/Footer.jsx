@@ -30,7 +30,7 @@ function Footers() {
             <li>Contact Us</li>
           </ul>
           </Col>
-          <Col lg={3} md={3} xs={12} data-aos="fade-right" ><ul className='list-unstyled pt-1'>
+          <Col lg={3} md={3} xs={12} data-aos="fade-up" ><ul className='list-unstyled pt-1'>
             <li className='fs-5  pb-3 ' style={{ color: ' rgb(210, 255, 8)' }}>POLICIES</li>
             <li>Privacy Policy</li>
             <li>Terms and Conditions</li>
@@ -39,7 +39,7 @@ function Footers() {
             <li>Create an exchange</li>
           </ul>
           </Col>
-          <Col lg={6} md={6} xs={12} className='ps-5' data-aos="fade-left"><h1 >MJ</h1>
+          <Col lg={6} md={6} xs={12} className='ps-5' data-aos="fade-up"><h1 >MJ</h1>
             <p className='fs-5 pt-4 w-75'>STAY IN THE LOOP WITH OUR WEEKLY NEWSLETTER</p>
             <Form>
               <Form.Group className="pb-3 " controlId="exampleForm.ControlInput1">
