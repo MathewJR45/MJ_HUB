@@ -20,7 +20,7 @@ function ResponsiveExample() {
               <Col className='' data-aos="fade-down" > <img src={top} alt="" style={{ width: 'auto', height: '300px', objectFit: 'cover' }} /> </Col>
               <Col className='pt-2' data-aos="fade-up">  <img src={side} alt="" style={{ width: '254px', height: '200px', objectFit: 'cover' }} /></Col>
             </Col>
-            <Col lg={6} md={4} xs={6} data-aos="fade-left">
+            <Col lg={6} md={4} xs={6}>
               <img src={full} alt="" style={{ height: '508px', objectFit: 'cover' }} />
             </Col>
           </Col>
